@@ -14,6 +14,14 @@ First, the code measures and stores the average atmospheric pressure at ground-l
 
 In order to use this code as-is, you must have Adafruit's [BMP3XX Sensor Library](https://github.com/adafruit/Adafruit_BMP3XX) and [Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor) installed in your Arduino libraries folder.
 
+## Sensor and Wiring
+
+You must own Adafruit's BMP388 sensor to use this code as-is (duh). Please connect your sensor according to its data sheet or online resources. I wired the BMP388 in its I2C configuration, so here's the wiring for my Arduino Uno:
+
+* BMP388 VIN:   Arduino Uno 3.3V
+* BMP388 GND:   Arduino Uno GND
+* BMP388 SCK:   Arduino Uno A5
+* BMP388 SDI:   Arduino Uno A4
 
 ## Resources
 
